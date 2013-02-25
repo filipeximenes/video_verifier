@@ -1,0 +1,17 @@
+This project aims to make it easy to verify and access video data from different video servides
+
+## Dependencies:
+
+gdata
+
+You can install gdata using pip:
+```
+$ pip install gdata
+```
+
+## Usage
+```
+verifier = VideoVerifier(service='youtube', video_id='ICHvZwueL_Q')
+print VideoVerifier.STATUS[verifier.get_video_status()]
+print verifier.get_video_length()
+```
