@@ -92,6 +92,6 @@ class YoutubeVerifier(object):
         return VideoVerifier.OK
 
 
-# verifier = VideoVerifier(service='youtube', video_id='ICHvZwueL_Q')
+# verifier = VideoVerifier(service='youtube', video_url='http://www.youtube.com/watch?v=ICHvZwueL_Q')
 # print VideoVerifier.STATUS[verifier.get_video_status()]
 # print verifier.get_video_length()
